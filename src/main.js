@@ -36,7 +36,7 @@ const CONFIG = {
       // flow
       'flow-bin', 'flow-typed',
       // webpack
-      'webpack', 'webpack-dev-server', 'babel-loader', 'css-loader', 'css-modules-require-hook', 'raw-loader', 'style-loader',
+      'webpack', 'webpack-cli', 'webpack-dev-server', 'babel-loader', 'css-loader', 'css-modules-require-hook', 'raw-loader', 'style-loader',
       // testing
       'jest', 'enzyme', 'enzyme-adapter-react-16', 'react-addons-test-utils',
       // code formatting
