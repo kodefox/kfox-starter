@@ -75,7 +75,7 @@ const CONFIG = {
 };
 
 program
-  .version(version)
+  .version(version, '-v,--version')
   .usage('init <project_name> [options]')
   .option('-t, --type [react|react-native|node]', 'Create a project of the given type.', 'react');
 
