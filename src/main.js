@@ -113,7 +113,7 @@ function createProject(name, type) {
     let dstFile = configFiles[srcFile];
     sh.cp('-R', `${starterPath}/${srcFile}`, `./${dstFile}`);
   }
-  console.log('Creating direcotries ...');
+  console.log('Creating directories ...');
   if (mkdir && mkdir.length) {
     sh.mkdir(...mkdir);
   }
