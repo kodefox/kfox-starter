@@ -1,8 +1,12 @@
 /*eslint-env node */
 var path = require('path');
 
-var loaders = [
-  {test: /\.js$/, loader: 'babel-loader'},
+var rules = [
+  {
+    test: /\.js$/,
+    exclude: /node_modules/,
+    loader: 'babel-loader',
+  },
   {
     test: /\.css$/,
     exclude: /\.global\.css$/,
@@ -23,5 +27,5 @@ module.exports = {
     publicPath: '/',
     filename: '[name].js',
   },
-  module: {loaders: loaders},
+  module: {rules: rules},
 };
