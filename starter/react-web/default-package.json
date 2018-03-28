@@ -4,8 +4,8 @@
   "private": true,
   "description": "$NAME",
   "scripts": {
-    "start": "webpack-dev-server --content-base assets/",
-    "build": "webpack",
+    "start": "webpack-dev-server --mode development --content-base assets/",
+    "build": "webpack --mode production",
     "build-watch": "webpack --watch",
     "format": "prettier-eslint --write \"src/**/*.js\"",
     "lint": "eslint . --max-warnings 0",
