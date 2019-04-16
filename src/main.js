@@ -43,7 +43,7 @@ const CONFIG = {
       // webpack
       'webpack', 'webpack-cli', 'webpack-dev-server', 'babel-loader@7.x.x', 'css-loader', 'css-modules-require-hook', 'raw-loader', 'style-loader',
       // testing
-      'jest', 'enzyme', 'enzyme-adapter-react-16', 'react-addons-test-utils',
+      'jest@23.6.0', 'enzyme', 'enzyme-adapter-react-16', 'react-addons-test-utils',
       // code formatting
       'prettier-eslint', 'prettier-eslint-cli',
     ],
@@ -76,7 +76,7 @@ const CONFIG = {
       // flow
       'flow-bin', 'flow-typed',
       // testing
-      'jest',
+      'jest@23.6.0',
       // code formatting
       'prettier-eslint', 'prettier-eslint-cli',
     ],
