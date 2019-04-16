@@ -1,6 +1,6 @@
 {
   "name": "kfstart",
-  "version": "0.14.6",
+  "version": "0.19.0",
   "description": "Quick start for your JS/React projects",
   "bin": {
     "kfstart": "./bin/kfstart.js"
